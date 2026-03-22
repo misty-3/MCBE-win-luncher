@@ -1,4 +1,4 @@
-# Minecraft Bedrock Launcher (MCBE-win-luncher)
+# Minecraft Bedrock Launcher (MCBE-win-launcher)
 
 [English](#english) | [العربية](#العربية)
 
