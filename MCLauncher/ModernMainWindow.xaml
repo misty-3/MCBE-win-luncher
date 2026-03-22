@@ -498,14 +498,15 @@
             <!-- Header -->
             <Border Grid.Row="1" Background="#1a1a1a" BorderBrush="{StaticResource Border}" BorderThickness="0,0,0,1" Padding="24,20">
                 <StackPanel Orientation="Horizontal">
-                    <Border Background="{StaticResource AccentGreen}" 
+                    <Border x:Name="IconBorder"
                             CornerRadius="10" 
                             Width="48" Height="48" 
                             Margin="0,0,16,0">
-                        <TextBlock Text="⛏️" 
-                                   FontSize="28" 
-                                   HorizontalAlignment="Center" 
-                                   VerticalAlignment="Center"/>
+                        <Image x:Name="HeaderIcon"
+                               Width="40" Height="40"
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Center"
+                               RenderOptions.BitmapScalingMode="HighQuality"/>
                     </Border>
                     <StackPanel VerticalAlignment="Center">
                         <TextBlock x:Name="HeaderTitle"

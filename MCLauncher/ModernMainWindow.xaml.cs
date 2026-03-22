@@ -59,6 +59,13 @@ namespace MCLauncher
         {
             InitializeComponent();
 
+            // Load embedded icon
+            var icon = EmbeddedIcon.GetIcon();
+            if (icon != null)
+            {
+                HeaderIcon.Source = icon;
+            }
+
             // Load preferences
             if (File.Exists(PREFS_PATH))
             {
